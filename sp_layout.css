@@ -58,6 +58,12 @@ nav ul {
    grid-column: 1 / span 4;
 }
 
+nav li {
+   display: block;
+   width: 12.5%;
+   float: left;
+   text align: center:
+}
 
 
 /* Section Styles */
