@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 3
+   Case Problem 1
+   
+   Layout styles for Slate and Pencil Tutoring
+   Author: Adam Nearing
+   Date: Feb. 22, 2023
+   
+   Filename: sp_layout.css
+
+*/
+
+/* Window and Body Styles */
+html {
+   height: 100%;
+}
+
+body {
+   min-height: 100%;
+   width: 95%;
+   max-width: 960px;
+}
+
+img {
+   display: block
+}
+
+/* CSS Grid Styles */
+
+
+
+
+
+
+/* Horizontal Navigation List Styles */
+
+
+
+/* Section Styles */
+
+
+
+
+/* Customer Comment Styles */
+
