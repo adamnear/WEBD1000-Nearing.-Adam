@@ -49,6 +49,19 @@ aside {
    grid-column: 1 / span 2;
 }
 
+aside:nth-of-type(odd) {
+   justify-self: end;
+}
+
+aside img {
+   float: left;
+   width: 20%;
+}
+
+aside p {
+   float:
+}
+
 /* Horizontal Navigation List Styles */
 nav ul {
    margin: 0;
