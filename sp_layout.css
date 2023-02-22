@@ -41,6 +41,13 @@ body {
    width: 100%;
 }
 
+nav, footer (
+   grid-column: 1 / 4;
+)
+
+aside {
+   grid-column
+}
 
 
 
