@@ -91,11 +91,11 @@ section p {
    width
 }
 
-
-
 /* Customer Comment Styles */
 .customer-comments {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    grid-gap: 20px;
+   grid-column: 3 / span 2;
+   margin-top: 30px;
 }
