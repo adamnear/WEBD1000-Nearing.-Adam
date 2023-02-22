@@ -46,12 +46,17 @@ nav, footer (
 )
 
 aside {
-   grid-column
+   grid-column: 1 / span 2;
 }
 
-
-
 /* Horizontal Navigation List Styles */
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: flex;
+   grid-column: 1 / span 4;
+}
 
 
 
