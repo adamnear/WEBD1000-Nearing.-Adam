@@ -19,10 +19,13 @@ html {
 }
 
 body {
+   width: 95%;
+   min-height: 100%;
    margin: 0 auto;
    padding: 0;
-   min-height: 100%;
-   width: 95%;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   min-width: 640px;
    max-width: 960px;
 }
 
@@ -41,8 +44,12 @@ body {
    width: 100%;
 }
 
-nav, footer (
-   grid-column: 1 / 4;
+nav ul {
+   grid-column: 1 / span  4;
+}
+
+footer (
+   grid-column: 1 / span 4;
 )
 
 aside {
@@ -65,30 +72,25 @@ aside p {
 }
 
 /* Horizontal Navigation List Styles */
-nav ul {
-   margin: 0;
-   padding: 0;
-   list-style: none;
-   display: flex;
-   grid-column: 1 / span 4;
-}
 
 nav li {
    display: block;
-   width: 12.5%;
    float: left;
-   text-align: center;
+   width: 12.5%;
+
 }
 
 
 /* Section Styles */
 section img {
+   display: block;
    width: 50%;
    margin: 0 auto;
 }
 
 section p {
-   width
+   width: 70%;
+   margin: 0 auto;
 }
 
 /* Customer Comment Styles */
