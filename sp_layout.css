@@ -23,8 +23,6 @@ body {
    min-height: 100%;
    margin: 0 auto;
    padding: 0;
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
    min-width: 640px;
    max-width: 960px;
 }
@@ -52,10 +50,6 @@ aside {
    grid-column: span 2;
 }
 
-nav ul {
-   grid-column: span  4;
-}
-
 
 
 aside img {
@@ -71,13 +65,11 @@ aside p {
 
 /* Horizontal Navigation List Styles */
 
-nav li {
+nav.horizontal li{
    display: block;
-   float: left;
    width: 12.5%;
-
-}
-
+   float: left;
+ }
 
 /* Section Styles */
 section img {
@@ -110,14 +102,5 @@ aside p {
    float: left;
    width: 75%;
    margin-left: 5%;
-}
-
-
-.customer-comments {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   grid-gap: 20px;
-   grid-column: 3 / span 2;
-   margin-top: 30px;
 }
 
