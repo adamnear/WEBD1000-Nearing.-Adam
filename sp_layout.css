@@ -57,9 +57,6 @@ nav ul {
 }
 
 
-aside:nth-of-type(odd) {
-   justify-self: end;
-}
 
 aside img {
    float: left;
@@ -95,9 +92,26 @@ section p {
 
 /* Customer Comment Styles */
 aside {
-   width: 50%;
+   width: 70%;
    padding-bottom: 30px;
 }
+
+
+aside:nth-of-type(odd) {
+   justify-self: right;
+}
+
+aside img {
+   float: left;
+   width: 20%;
+}
+
+aside p {
+   float: left;
+   width: 75%;
+   margin-left: 5%;
+}
+
 
 .customer-comments {
    display: grid;
