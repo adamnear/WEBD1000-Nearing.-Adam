@@ -45,20 +45,17 @@ img#logo {
 }
 
 nav.horizontal, footer {
-   grid-column: sppan 4;
+   grid-column: span 4;
+}
+
+aside {
+   grid-column: span 2;
 }
 
 nav ul {
-   grid-column: 1 / span  4;
+   grid-column: span  4;
 }
 
-footer (
-   grid-column: 1 / span 4;
-)
-
-aside {
-   grid-column: 1 / span 2;
-}
 
 aside:nth-of-type(odd) {
    justify-self: end;
@@ -87,14 +84,13 @@ nav li {
 
 /* Section Styles */
 section img {
-   display: block;
    width: 50%;
-   margin: 0 auto;
+   margin: 0 auto 0 auto;
 }
 
 section p {
    width: 70%;
-   margin: 0 auto;
+   margin: 0 auto 0 auto;
 }
 
 /* Customer Comment Styles */
