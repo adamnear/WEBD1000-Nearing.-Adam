@@ -94,6 +94,11 @@ section p {
 }
 
 /* Customer Comment Styles */
+aside {
+   width: 50%;
+   padding-bottom: 30px;
+}
+
 .customer-comments {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
